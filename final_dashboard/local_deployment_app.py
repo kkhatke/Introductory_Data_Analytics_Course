@@ -11,7 +11,6 @@ from prep_data import dashboard_data,genre
 
 # Create the Dash app
 app = dash.Dash()
-
 # Set up the app layout
 app.layout = html.Div(children=[
     html.H1(children='Imdb vs Rotten tomatoes Ratings Dashboard'),
